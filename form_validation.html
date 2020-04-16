@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Form validation using jquery</title>
+        <meta charset="UTF-8">
+        <script src="jquery.min.js"></script>
+        <script src="jquery.validate.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <section>
+            <h2>Form Validation</h2>
+            <form id="registerForm" method="post" action="#">
+                <div>
+                    <label for="name">Name (Mandatory):</label>
+                    <input type="text" id="name" name="name"/>
+                </div>
+                <div>
+                    <label for="user_email">Email (Mandatory):</label>
+                    <input type="text" id="user_email" name="user_email"/>
+                </div>
+                <div>
+                    <label for="psword">Password (Mandatory):</label>
+                    <input type="password" id="psword" name="psword"/>
+                </div>
+                <div>
+                    <label for="psword">Confirm Password (Mandatory):</label>
+                    <input type="password" id="confirm_psword" name="confirm_psword"/>
+                </div>
+                <div>
+                    <label for="psword">Telephone Number (Optional):</label>
+                    <input type="tel" id="telephone" name="telephone"/>
+                </div>
+                <div>
+                    <label for="psword">Website Address (Optional):</label>
+                    <input type="text" id="website" name="website"/>
+                </div>
+                <div>
+                    <input type="submit" value="Submit" class="form-buttons"/>
+                    <input type="reset" name="reset" class="form-buttons">
+                </div>
+            </form>
+        </section>
+    </body>
+
+</html>
